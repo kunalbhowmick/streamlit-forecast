@@ -39,6 +39,7 @@ df = pd.read_csv(io.StringIO(download.decode('utf-8')),parse_dates=['Date'])
 
 
 #os.chdir("C:\\Users\\bhowku01\\DL Forecast")
+st.title('Love you Nupur')
 st.title('Time series Analyser')
 #df = pd.read_csv('DOW_2020-09-26.csv',parse_dates=['Date'])
 if st.checkbox('Show dataframe'):
